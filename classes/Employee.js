@@ -1,7 +1,7 @@
 class Employee {
     #salary
     #isHired
-    constructor(name, position, salary, isHired){
+    constructor(name, position, salary, isHired =true){
         this.#isHired = isHired
         this.#salary = salary
         this.name = name
