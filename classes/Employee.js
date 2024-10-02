@@ -2,10 +2,10 @@ class Employee {
     #salary
     #isHired
     constructor(name, position, salary, isHired = true){
-        this.#isHired = isHired;
-        this.#salary = salary;
-        this.name = name;
-        this.position = position;
+        this.#isHired = isHired
+        this.#salary = salary
+        this.name = name
+        this.position = position
     }
     getSalary(){
         return this.#salary
