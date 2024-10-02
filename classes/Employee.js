@@ -1,11 +1,11 @@
 class Employee {
     #salary
     #isHired
-    constructor(name, position, salary, isHired){
-        this.#isHired = isHired
-        this.#salary = salary
-        this.name = name
-        this.position = position
+    constructor(name, position, salary, isHired = true){
+        this.#isHired = isHired;
+        this.#salary = salary;
+        this.name = name;
+        this.position = position;
     }
     getSalary(){
         return this.#salary
@@ -18,9 +18,9 @@ class Employee {
     }
     setStatus(command){
         if(command.toLowerCase() === 'hire'){
-             this.#isHired = true
+            this.#isHired = true;
         }else if(command.toLowerCase() === 'fire'){
-            this.#isHired = false
+            this.#isHired = false;
         }   
     }
 }
