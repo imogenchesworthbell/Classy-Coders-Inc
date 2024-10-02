@@ -1,0 +1,24 @@
+{
+  "name": "classy-coders-inc",
+  "version": "1.0.0",
+  "description": "![logo](https://user-images.githubusercontent.com/44912347/202244850-18dbf275-11cf-44b5-9500-b2fcb5d44d05.jpg)",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --watchAll",
+    "test:report": "jest --coverage=true"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MultiverseLearningProducts/Classy-Coders-Inc.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MultiverseLearningProducts/Classy-Coders-Inc/issues"
+  },
+  "homepage": "https://github.com/MultiverseLearningProducts/Classy-Coders-Inc#readme",
+  "dependencies": {
+    "jest": "^29.5.0"
+  }
+}
